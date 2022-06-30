@@ -1,13 +1,11 @@
 import React from "react";
 
-function Contact() {
+const Contact = () => {
   return (
-    <div className='Contact'>
-      <p>
-        Contact
-      </p>
+    <div className="Contact">
+      <p>Contact</p>
     </div>
   );
-}
+};
 
 export default Contact;

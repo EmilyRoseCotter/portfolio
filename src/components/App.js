@@ -7,20 +7,20 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import NavBar from "./Navbar";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <div className="App">
         <NavBar />
         <Routes>
-          <Route exect path="/" component={Home} />
-          <Route exect path="/about" component={About} />
-          <Route exect path="/projects" component={Projects} />\
-          <Route exect path="/contact" component={Contact} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />\
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
   );
-}
+};
 
 export default App;
