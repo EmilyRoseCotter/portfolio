@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&display=swap');
+
 .navbar {
   display: flex;
   align-items: center;
+  background-color: #86a8e7;
 }
 
 .navbarLinks {
@@ -31,10 +34,11 @@
 }
 
 .navbarLinks li {
-   color: #52167a;
+   color: white;
+   font-family: 'Arima', cursive;
 }
 
 .navbarLinksItems:hover {
   text-decoration: underline;
-  color: #52167a;
+  color: white;
 }

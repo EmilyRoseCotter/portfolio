@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&display=swap');
+
 body {
-  background-image: linear-gradient(to right bottom, #86a8e7, #6fbcf4, #5dcef9, #5be0f6, #6fefee);
+  background-color: white;
   height: 100vh;
+}
+
+h1 h2 h3 h4 {
+  font-family: 'Arima', cursive;
 }
