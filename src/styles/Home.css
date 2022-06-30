@@ -1,0 +1,11 @@
+.Hero {
+  background-color: white;
+  color: #6fbcf4;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Hero h1 {
+  font-size: 4rem;
+}
