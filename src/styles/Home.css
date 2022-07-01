@@ -4,8 +4,17 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .Hero h1 {
   font-size: 4rem;
+  margin-bottom: 15px;
+}
+
+.Avatar {
+  border-radius: 50%;
+  max-height: 300px;
+  width: max-content;
 }
