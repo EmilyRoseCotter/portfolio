@@ -28,3 +28,30 @@
 .heroHeadings {
   text-align: left;
 }
+
+.curved {
+  background: #10107a;
+  color: #ffff;
+  text-align: center;
+}
+
+.curved h2 {
+  font-size: 6rem;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.curved p {
+  font-size: 1rem;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+}
+
+.curved svg {
+  display: block;
+
+}
+
+.curved.upper {
+  background: #ffff;
+}
