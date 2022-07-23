@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Home.css";
 import Emily from "../Assets/Emily.png";
+import SkillsTable from "./SkillsTable";
 
 const Home = () => {
   return (
@@ -43,6 +44,7 @@ const Home = () => {
           />
         </svg>
       </div>
+      <SkillsTable />
     </div>
   );
 };
